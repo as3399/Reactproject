@@ -6,9 +6,8 @@ body {
    justify-content: center;
    height: 80px;
    align-items: center;
-   border: 3px solid black;
+   text-transform: uppercase;
    font-family: 'Langar', cursive;
-   background: linear-gradient(50deg, red, blue );
-   border-radius: 20px;  
-   color: #ffe5e5; 
+   background: white;  
+   color: #c0c0c0; 
  }

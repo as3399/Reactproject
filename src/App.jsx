@@ -5,7 +5,7 @@ import Card from './Card'
 function App() {
     return (
         <div>
-            <h1 className="navbar_title">Top 5 Web Series 2020</h1>
+            <h1 className="navbar_title">List of Top 5 Web Series 2020</h1>
 
             <Card
                 poster={Sdata[0].poster}
@@ -31,6 +31,7 @@ function App() {
                 title={Sdata[3].title}
             />
             <Card
+           
                 poster={Sdata[4].poster}
                 sname={Sdata[4].sname}
                 link={Sdata[4].link}
