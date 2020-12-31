@@ -1,13 +1,72 @@
 body { 
     background-color: rgb(211, 222, 241);
 }
- h1{
-   display: flex;
-   justify-content: center;
-   height: 80px;
-   align-items: center;
-   text-transform: uppercase;
-   font-family: 'Langar', cursive;
-   background: white;  
-   color: #c0c0c0; 
+ .navbar{
+   justify-content: left;
+   width: 100%;
+   padding: 12px 15px;
+   margin-bottom: 20px;
+   background: white; 
+   /* border: 1px solid red;  */
+   
+  }
+  .navbar h1{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Langar', cursive;
+    color: #d37c7c; 
  }
+ 
+ /* .dropdown{
+   z-index: 4;
+   float: left;
+   position: absolute;
+   width: 100px;
+   margin: 0px, auto;
+   }
+   .dropdown ul{
+     list-style: none;
+   }
+   .droplist{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+    height: 41px;
+    font-size: 1.6rem;
+    overflow: hidden;
+   }
+   .droplist:hover{
+    overflow: visible; 
+   }
+
+   .select{
+     border: 2px solid #d37c7c;
+     padding: 4px;
+     text-align: center;
+     text-decoration: none;
+     color:black;
+     background-color: white;
+     font-family: 'Roboto', sans-serif;
+    }
+   
+   .droplist ul li{
+    border: 2px solid #d37c7c;
+     color: black;
+     background-color:white;
+     padding: 5px;
+   }
+   .droplist ul li a{
+    font-family: 'Roboto', sans-serif;
+     text-decoration: none;
+     color: black;
+/* ;
+   }
+   .droplist ul li:hover{
+     background: black;
+    }
+    .droplist ul li a:hover{
+     color: white;
+
+   } */ 
