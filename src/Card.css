@@ -81,4 +81,21 @@
     .footer{
         margin-top: 40px;
     }
+    .cards:hover{
+        transform: scale(0);
+        transition-duration: 0;
+        box-shadow: 0px 10px 13px -7px rgb(0, 0, 0);
+        scroll-behavior:initial ;
+}
+    
+  
+@media(max-width: 470px){
+    .cards{
+        margin-left: 13%;
+    }
+}}
+@media(min-width: 470px) and (max-width: 1350px){
+    .cards{
+        margin-left: 16%;
+    }
 }

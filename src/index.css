@@ -4,14 +4,20 @@ body {
   
 }
 .box{
-  width: 100%;
+  display: block;
+  margin-left: 6%;
+  width: 90%;
   height: 900px;
+  overflow: scroll;
   /* border:2px solid red;  */
+  
 }
 @media(max-width: 470px){
   .box{
     overflow: scroll;
+    margin-left: 6%;
   }
+
 }
 
 #navbar{
@@ -47,7 +53,7 @@ body {
     text-transform: uppercase;
     font-family: 'Langar', cursive;
     color: #d37c7c; 
-    opacity: 120%;
+    opacity: 100%;
  }
  
  /* .dropdown{
