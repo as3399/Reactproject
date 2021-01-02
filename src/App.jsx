@@ -6,15 +6,12 @@ import Foot from './Foot'
 function App() {
     return (
         <div>
-        <div className="navbar">
+        <div id="navbar">
            
             <h1>List of Top 5 Web Series 2020</h1>
-                     
-                    
+                          
         </div>
-                
-        
-       
+         <div className = "box">        
         {Sdata.map((val, index) => {
             console.log(index);
             return (
@@ -28,6 +25,7 @@ function App() {
             )
         }
         )}
+        </div> 
         <Foot />
         </div>
         
