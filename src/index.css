@@ -4,11 +4,9 @@ body {
   
 }
 .box{
-  display: block;
-  margin-left: 6%;
+  margin-left: 4%;
   width: 90%;
   height: 900px;
-  overflow: scroll;
   /* border:2px solid red;  */
   
 }
