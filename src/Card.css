@@ -83,13 +83,13 @@
         margin-top: 40px;
     }
 }
-    
-  
+
 @media(max-width: 470px){
     .cards{
         margin-left: 5%;
     }
-}}
+}
+
 @media(min-width: 470px) and (max-width: 1350px){
     .cards{
         margin-left: 16%;
